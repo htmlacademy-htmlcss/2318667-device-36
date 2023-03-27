@@ -7,13 +7,18 @@
   </head>
   <body>
     <header class="page-header">
-      <<a class="navigation-logo">
+      <a class="navigation-logo">
         <img class="page-header-logo" src="images/logo.svg" width="145" height="36" alt="Логотип.">
       </a>
       <nav class="navigation-site">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <form></form>
+            <form class="header-form" action="https://echo.htmlacademy.ru/" method="get">
+              <label class="search-field" for="search-field">
+                <input type="search" name="search" id="search-field" placeholder="Поиск по сайту">
+              </label>
+              <button class="header-search-button">Найти</button>
+            </form>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">Войти</a>
