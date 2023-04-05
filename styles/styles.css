@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
   *,
   *::before,
   *::after {
@@ -11,11 +35,11 @@
   body {
     margin: 0;
     min-height: 100%;
-    font-family: "PT Sans", "Arial", sans-serif;
+    font-family: "Rubik", "Arial", sans-serif;
     font-size: 18px;
-    line-height: 21px;
-    color: #333333;
-    background-color: #f2f2f2;
+    line-height: 30px;
+    color: #444444;
+    background-color: #ffffff;
   }
 
   .visually-hidden {
@@ -31,3 +55,101 @@
   .main-container {
     flex-grow: 1;
   }
+
+  .container {
+    margin: 0 auto;
+    width: 1160px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  /*Хедер*/
+
+  .slider-button {
+    width: 48px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    background-image: url("../images/arrow_r.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .slider-button:hover {
+    background-color: #814b18;
+  }
+
+  .slider-button:focus {
+    outline: 2px solid #dbb590;
+    background-color: #4e2e0e;
+  }
+
+  .slider-prev {
+    transform: rotate(180deg);
+  }
+
+  .slider-pagination-item {
+    margin: 0 4px;
+  }
+
+  .slider-pagination-button {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .slider-pagination-button:hover {
+    background-color: #af7842;
+  }
+
+  .slider-pagination-button:focus {
+    background-color: #dbb590;
+    outline: none;
+  }
+
+  .slider-pagination-button-current {
+    background-color: #242424;
+  }
+
+  .slider-wrapper {
+    position: relative;
+  }
+
+  .slider-controls {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transform: translateY(-50%);
+  }
+
+
+
+
+
+
+
+  /*Список каталога*/
+ .catalog-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .catalog-list {
+    display: flex;
+  }
+  /*Доставка*/
+
+  /*Контакты*/
+
+  /*Футер*/
