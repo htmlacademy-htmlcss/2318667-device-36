@@ -51,6 +51,7 @@
     border: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
+  }
 
   .main-container {
     flex-grow: 1;
@@ -64,6 +65,10 @@
     flex-direction: column;
   }
 
+  .page-header-logo {
+    margin-top: 20px;
+  }
+
 
   /*Хедер*/
 
@@ -73,21 +78,21 @@
     color: #000000;
     background-color: #ffffff;
     width: 1160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     margin: 0;
     padding: 0 60px;
   }
 
   .navigation-list {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
   }
 
   .navigation-user-list {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
   }
-
 
 
   /*Слайдер*/
