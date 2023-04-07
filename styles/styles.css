@@ -82,6 +82,20 @@
     padding: 0 60px;
   }
 
+  .navigation-site {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation-user {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .search-imput {
+
+  }
+
   .navigation-list {
     list-style: none;
     display: flex;
