@@ -180,12 +180,6 @@
     transform: translateY(-50%);
   }
 
-
-
-
-
-
-
   /*Список каталога*/
  .catalog-item {
     display: flex;
@@ -198,5 +192,39 @@
   /*Доставка*/
 
   /*Контакты*/
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-us {
+    width: 520px;
+  }
+
+  .info-contact {
+    width: 530px;
+  }
+
+  /*Подписка*/
+  .subscription {
+    background-color: rgba(240, 240, 240, 1);
+  }
+
+  .subscription-title {
+    width: 350px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
+    padding-top: 64px;
+  }
+
+  .subscription-container {
+    width: 1160px;
+    margin: 0 auto;
+  }
 
   /*Футер*/
