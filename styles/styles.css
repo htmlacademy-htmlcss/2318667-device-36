@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "Rubik";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
@@ -57,13 +57,13 @@
     flex-grow: 1;
   }
 
-  .container {
+  /*.container {
     margin: 0 auto;
     width: 1160px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
+  }*/
 
   .page-header-logo {
     margin-top: 20px;
@@ -220,11 +220,69 @@
     line-height: 50px;
     color: #000000;
     padding-top: 64px;
+    margin: 0;
+    padding: 0;
   }
 
   .subscription-container {
     width: 1160px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .subscription-blok {
+    width: 560px;
+    padding-top: 64px;
+  }
+
+  .subscription-form {
+    padding-top: 144px;
+    padding-bottom: 56px;
+    display: flex;
+  }
+
+  .subscription-input {
+    width: 557px;
+    height: 55px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid rgba(196, 196, 196, 1);
+  }
+
+  .subscription-input::placeholder {
+    padding-left: 16px;
+    padding-top: 11px;
+  }
+
+  .subscription-button {
+    width: 253px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    border: 3px solid rgba(196, 196, 196, 1);
+    padding: 0;
+  }
+
+  .subscription-sub {
+    width: 160px;
+    padding-top: 144px;
+    padding-bottom: 56px;
+    display: flex;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .subscription-link {
+    margin-right: 16px;
+  }
+
+  .subscription-free {
+    margin: 0;
   }
 
   /*Футер*/
