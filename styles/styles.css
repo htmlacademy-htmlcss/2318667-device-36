@@ -305,6 +305,7 @@
   .footer-logo {
     grid-column: 1/3;
     grid-row: 1;
+    padding-bottom: 36px;
   }
 
   .adress {
@@ -348,6 +349,7 @@
     grid-column: 2;
     grid-row: 3;
     width: 150px;
+    padding-top: 55px;
    }
 
   .footer-social-list {
@@ -380,4 +382,15 @@
     text-transform: uppercase;
     color: #ffffff;
     text-decoration: none;
+  }
+
+  .logo-htmlacademy {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .page-footer-logo {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
   }
