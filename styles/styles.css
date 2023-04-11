@@ -93,7 +93,13 @@
   }
 
   .search-imput {
+    width: 360px;
+    border-radius: 0 2px 2px 0;
+  }
 
+  .header-search-button {
+    width: 160px;
+    border-radius: 0 2px 2px 0;
   }
 
   .navigation-list {
@@ -181,6 +187,12 @@
   }
 
   /*Список каталога*/
+
+  .catalog {
+    width: 1160px;
+    margin: 0 auto;
+  }
+
  .catalog-item {
     display: flex;
     justify-content: space-between;
@@ -188,7 +200,19 @@
 
   .catalog-list {
     display: flex;
+    width: 160px;
   }
+
+  .catalog-img:nth-child(1) {
+      background-image: url(../images/virt_reality.svg);
+  }
+
+  .catalog-img {
+    width: 160px;
+    height: 160px;
+    background-color: #FFE17F;
+  }
+
   /*Доставка*/
 
   /*Контакты*/
@@ -204,6 +228,13 @@
     font-weight: 800;
     font-size: 50px;
     line-height: 50px;
+    color: #000000;
+  }
+
+  .info h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
     color: #000000;
   }
 
@@ -226,10 +257,28 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    padding-top: 19px;
   }
 
   .info li {
     color: #FFC700;
+  }
+
+  .info span {
+    color: #000000;
+  }
+
+  .info-phone {
+    color: #444444;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .info-link-contact {
+    width: 260px;
   }
 
   /*Подписка*/
