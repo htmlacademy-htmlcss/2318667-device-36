@@ -92,14 +92,24 @@
     justify-content: space-between;
   }
 
+  .header-form {
+    display: flex;
+  }
+
   .search-imput {
     width: 360px;
-    border-radius: 0 2px 2px 0;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 50px 0 0 50px;
+
   }
 
   .header-search-button {
     width: 160px;
-    border-radius: 0 2px 2px 0;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 0 50px 50px 0;
+    padding: 0;
   }
 
   .navigation-list {
