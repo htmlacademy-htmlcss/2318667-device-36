@@ -73,13 +73,27 @@
   /*Хедер*/
 
   .page-header {
-    min-height: 175px;
+    width: 1160px;
+    min-height: 206px;
     position: relative;
     color: #000000;
     background-color: #ffffff;
-    width: 1160px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 60px;
+  }
+
+  .page-header::before {
+    content: "";
+    background-color: #FFC700;
+    width: 1160px;
+    min-height: 166px;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+  }
+
+  .header-container {
+    width: 1040px;
   }
 
   .navigation-site {
@@ -101,7 +115,7 @@
     height: 40px;
     border: 2px solid #000000;
     border-radius: 50px 0 0 50px;
-
+    background-color: #FFE17F;
   }
 
   .header-search-button {
@@ -110,6 +124,7 @@
     border: 2px solid #000000;
     border-radius: 0 50px 50px 0;
     padding: 0;
+    background-color: #FFE17F;
   }
 
   .navigation-list {
