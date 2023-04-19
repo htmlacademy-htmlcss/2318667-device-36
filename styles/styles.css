@@ -136,6 +136,14 @@
     border: 2px solid #000000;
     border-radius: 50px 0 0 50px;
     background-color: #FFE17F;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-position: 16px;
+  }
+
+  .search-imput::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+    padding-left: 48px;
   }
 
   .header-search-button {
@@ -288,8 +296,35 @@
 
   .delivery {
     min-height: 391px;
-    background-color: #ffffff;
+    background-color: #F0F0F0;
     color: #000000;
+  }
+
+  .delivery-container {
+    margin: 0 auto;
+    width: 1160px;
+    position: relative;
+    display: flex;
+  }
+
+  .black-line-ver {
+    position: absolute;
+    width: 7px;
+    height: 319px;
+    left: 280px;
+    top: 0;
+    background-color: #000000;
+  }
+
+  .delivery-item-link {
+    list-style: none;
+  }
+
+  .delivery-list-link {
+    width: 694px;
+    padding-top: 73px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .delivery-item {
@@ -302,6 +337,10 @@
 
   .delivery-credit {
     display: none;
+  }
+
+  .delivery-ref {
+    width: 280px;
   }
 
   /*Контакты*/
