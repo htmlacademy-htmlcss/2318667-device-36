@@ -204,6 +204,21 @@
     justify-content: space-between;
   }
 
+  .catalog-index {
+    width: 1160px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: #FFE17F;
+  }
+
+  /*.navigation-button:hover + .catalog-index {
+    display: block;
+  }*/
+
+  .navigation-button:focus + .catalog-index {
+    display: block;
+  }
+
   .navigation-user-list {
     list-style: none;
     display: flex;
@@ -252,6 +267,9 @@
     padding: 5px;
   }
 
+  .catalog-index {
+    display: none;
+  }
 
   /*Слайдер*/
 
@@ -397,6 +415,7 @@
     min-height: 391px;
     background-color: #F0F0F0;
     color: #000000;
+    margin-bottom: 70px;
   }
 
   .delivery-container {
@@ -442,11 +461,35 @@
     width: 280px;
   }
 
+  /*Кнопка "Под заказ"*/
+  .button-on-order {
+    margin: 0 auto;
+    width: 1160px;
+  }
+
+  .on-order {
+    width: 1160px;
+    min-height: 100px;
+    background-color: #F0F0F0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+    background-image: url(../images/car.svg);
+    background-repeat: no-repeat;
+  }
+
   /*Контакты*/
 
   .info {
     background-color: #ffffff;
     color: #444444;
+    margin-top: 70px;
   }
 
   .info h2 {
@@ -456,6 +499,8 @@
     font-size: 50px;
     line-height: 50px;
     color: #000000;
+    margin: 0;
+    margin-bottom: 48px;
   }
 
   .info h3 {
@@ -470,6 +515,13 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+  }
+
+  .black-line {
+    width: 84px;
+    height: 7px;
+    background-color: #000000;
+    margin-bottom: 40px;
   }
 
   .about-us {
