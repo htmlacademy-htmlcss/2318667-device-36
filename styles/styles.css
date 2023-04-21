@@ -142,7 +142,6 @@
     width: 240px;
     margin: 0;
     padding: 0;
-    padding-top: 5px;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
@@ -182,11 +181,47 @@
     margin-top: 30px;
   }
 
+  .navigation-catalog {
+    position: relative;
+  }
+
+  .navigation-button {
+    width: 293px;
+    height: 50px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    align-items: center;
+    border: none;
+    background-color: #FFE17F;
+    position: absolute;
+    background-image: url(../images/plus.svg);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .navigation-user-list {
     list-style: none;
     display: flex;
     justify-content: space-between;
     margin: 0;
+    margin-left:  auto;
+    width: 471px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .navigation-user-link {
+    text-decoration: none;
   }
 
   .navigation-link {
@@ -200,10 +235,12 @@
 
   .number-favorites {
     position: absolute;
-    bottom: 11px;
+    bottom: 14px;
     left: 120px;
     width: 21px;
     height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
     font-size: 14px;
     line-height: 17px;
     display: flex;
@@ -221,6 +258,20 @@
   .gallery {
     margin: 0 auto;
     width: 1160px;
+    min-height: 560px;
+    background-color: #FFE17F;
+    background-size: 150px 1160px;
+  }
+
+  .gallery-numbers {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 180px;
+    line-height: 30px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
   }
 
   .slider-button {
