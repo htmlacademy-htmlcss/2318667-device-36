@@ -656,10 +656,17 @@
     grid-gap: 18px;
   }
 
-  .footer-logo {
-    grid-column: 1/3;
+  .footer-logotip {
+    grid-column: 1/-1;
     grid-row: 1;
-    padding-bottom: 36px;
+    padding-bottom: 18px;
+  }
+
+  .footer-logo-link {
+    width: 145px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
   }
 
   .adress {
@@ -703,7 +710,8 @@
     grid-column: 2;
     grid-row: 3;
     width: 150px;
-    padding-top: 55px;
+    margin-top: 24px;
+    margin-bottom: 60px;
    }
 
   .footer-social-list {
@@ -741,10 +749,21 @@
   .logo-htmlacademy {
     grid-column: 3;
     grid-row: 3;
+    margin-top: 24px;
   }
 
   .page-footer-logo {
     display: flex;
     justify-content: flex-end;
     margin: 0;
+    padding: 0;
+  }
+
+  .line-yellow {
+    width: 80px;
+    height: 7px;
+    background-color: #FFC700;
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 24px;
   }
