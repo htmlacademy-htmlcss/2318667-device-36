@@ -480,8 +480,8 @@
     text-transform: uppercase;
     color: #000000;
     border: none;
-    background-image: url(../images/car.svg);
-    background-repeat: no-repeat;
+    background-image: url(../images/car.svg), url(../images/info.svg);
+    background-repeat: no-repeat, no-repeat;
   }
 
   /*Контакты*/
