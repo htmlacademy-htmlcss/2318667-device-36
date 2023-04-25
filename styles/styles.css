@@ -287,7 +287,7 @@
   .gallery {
     margin: 0 auto;
     width: 1160px;
-    min-height: 560px;
+    min-height: 580px;
     background-color: #ffffff;
     position: relative;
     z-index: 1;
@@ -307,6 +307,7 @@
     width: 250px;
     height: 135px;
     left: 900px;
+    top: 30px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
@@ -338,8 +339,35 @@
     width: 560px;
     position: absolute;
     z-index: 3;
-    margin-top: 100px;
+    margin-top: 121px;
     margin-left: auto;
+  }
+
+  .gallery-button {
+    margin-bottom: 50px;
+  }
+
+  .feature {
+    width: 307px;
+    min-height: 72px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feature h3 {
+    font-size: 36px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .feature p {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .feature-radius {
+    margin-left: 20px;
   }
 
   .slider-button {
