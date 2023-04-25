@@ -58,16 +58,11 @@
     flex-grow: 1;
   }
 
-  /*.container {
+  .container {
     margin: 0 auto;
     width: 1160px;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }*/
-
-  .page-header-logo {
-    margin-top: 20px;
+    position: relative;
   }
 
   .button {
@@ -94,12 +89,21 @@
 
   .page-header {
     width: 1160px;
-    min-height: 206px;
-    position: relative;
+    min-height: 190px;
     color: #000000;
-    background-color: #FFE17F;
+    background-color: #ffffff;
     margin: 0 auto;
     padding: 0 60px;
+  }
+
+  .header-line {
+    width: 1160px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #FFE17F;
+    margin-top: 40px;
+    position: absolute;
+    z-index: 1;
   }
 
  /* .page-header::before {
@@ -112,8 +116,14 @@
     margin: 0 auto;
   }*/
 
+  .page-header-logo {
+    margin-top: 20px;
+  }
+
   .header-container {
     width: 1040px;
+    z-index: 2;
+    position: absolute;
   }
 
   .navigation-site {
@@ -202,6 +212,7 @@
     background-position: right;
     display: flex;
     justify-content: space-between;
+    z-index: 3;
   }
 
   .catalog-index {
@@ -277,19 +288,58 @@
     margin: 0 auto;
     width: 1160px;
     min-height: 560px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .gallery-line {
     background-color: #FFE17F;
-    background-size: 150px 1160px;
+    width: 1160px;
+    height: 150px;
+    margin: 0 auto;
+    z-index: -1;
+    position: absolute;
   }
 
   .gallery-numbers {
+    position: absolute;
+    width: 250px;
+    height: 135px;
+    left: 900px;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
     font-size: 180px;
     line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
     color: #ffffff;
+    z-index: 2;
+  }
+
+  .gallery-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
     margin: 0;
-    padding: 0;
+    margin-bottom: 29px;
+  }
+
+  .gallery-text {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .gallery-content {
+    width: 560px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 100px;
+    margin-left: auto;
   }
 
   .slider-button {
