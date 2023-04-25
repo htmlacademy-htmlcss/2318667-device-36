@@ -41,6 +41,7 @@
     line-height: 30px;
     color: #444444;
     background-color: #ffffff;
+    position: relative;
   }
 
   .visually-hidden {
@@ -58,12 +59,12 @@
     flex-grow: 1;
   }
 
-  .container {
+  /*.container {
     margin: 0 auto;
     width: 1160px;
     min-height: 100vh;
     position: relative;
-  }
+  }*/
 
   .button {
     padding: 9px 41px;
@@ -358,12 +359,14 @@
     font-size: 36px;
     line-height: 30px;
     margin: 0;
+    padding: 0;
   }
 
   .feature p {
     font-size: 16px;
     line-height: 30px;
     margin: 0;
+    padding: 0;
   }
 
   .feature-radius {
@@ -644,16 +647,23 @@
   }
 
   .subscription-title {
-    width: 350px;
+   margin-top: 64px;
+  }
+
+  .subscription h2 {
+    width: 348px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
     line-height: 50px;
     color: #000000;
-    padding-top: 64px;
     margin: 0;
     padding: 0;
+  }
+
+  .subscription-text {
+    margin: 0;
   }
 
   .subscription-container {
