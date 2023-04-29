@@ -52,10 +52,35 @@
                 </a>
               </li>
             </ul>
+            <!--Поповер корзина-->
+            <div class="popover-add popover-cart-add">
+              <ul class="popover-list-add">
+                <li class="popover-items-add popover-items-normal">
+                  <img class="popover-picture" src="/images/product/product-1-small-5.jpg" width="39" height="43" alt="Селфи палка на сером фоне.">
+                  <a class="popover-link-add" href="#"><span class="link-description">Любительская</span>селфи-палка</a>
+                  <button class="popover-close-button">
+                    <span class="visually-hidden">Закрыть</span>
+                  </button>
+                </li>
+                <li class="popover-items-add popover-items-pro">
+                  <img class="popover-picture" src="/images/product/product-1-small-6.jpg" width="39" height="43" alt="Селфи палка на сером фоне.">
+                  <a class="popover-link-add" href="#"><span class="link-description">Профессиональная</span>селфи-палка</a>
+                  <button class="popover-close-button">
+                    <span class="visually-hidden">Закрыть</span>
+                  </button>
+                </li>
+                <div class="total">
+                  <p class="total-items-product">Товаров: <span>2</span></p>
+                  <p class="total-items-sum">Сумма: <span>2000 ₽</span></p>
+                </div>
+              </ul>
+              <button class="popover-open-button">Открыть корзину</button>
+            </div>
           </nav>
           <nav class="navigation-user">
             <div class="navigation-catalog">
               <button class="navigation-button" type="submit">Каталог товаров</button>
+              <!--Поповер каталог товаров-->
               <div class="catalog-index">
                 <ul class="catalog-list">
                   <li class="catalog-item">
@@ -97,14 +122,15 @@
     </div>
     <main class="main-index main-container">
         <h1 class="visually-hidden">Девайс</h1>
-          <section class="gallery">
+        <!--Слайдер -->
+         <!-- <section class="gallery">
             <div class="gallery-line"></div>
             <div class="slider-wrapper">
+            <h2 class="visually-hidden">Фотогалерея</h2>
               <div class="slider-picture">
                 <img class="slider-image" src="images/slider-1.png" alt="Примеры девайсов." width="560" height="560">
               </div>
               <div class="slider-content">
-                <h2 class="visually-hidden">Фотогалерея</h2>
                 <div class="gallery-number">
                   <span class="gallery-numbers">01</span>
                 </div>
@@ -153,10 +179,95 @@
                 </ol>
               </div>
              </div>
+          </section> -->
+          <section class="popular-goods container">
+            <div class="slider-wrapper">
+              <h2 class="visually-hidden">Популярные товары</h2>
+              <ul class="slaider-list">
+                <li class="slider-peacture slider-peacture-current">
+                  <h3 class="visually-hidden">Квадрокоптер</h3>
+                  <img class="slider-image" src="images/slider-1.png" width="560" height="560"
+                    alt="Квадрокоптер на белом фоне с инфрокрасной камерой">
+                  <div class="slider-description">
+                    <span class="slider-number">01</span>
+                    <p class="title-items title-items-slider">Порхает как бабочка, жалит как пчела!</p>
+                    <p class="title-paragraph title-paragraph-slider">Этот обычный, на первый взгляд, квадрокоптер оснащен
+                      мощным лазером,
+                      замаскированным под стандартную
+                      камеру.</p>
+                    <a class="help-link help-link-slider" href="#">Подробнее</a>
+                    <div class="slider-advantages">
+                      <p class="title-paragraph title-advantages"><b>800 м</b>Дальность полета</p>
+                      <p class="title-paragraph title-advantages"><b>50 м</b>Радиус поражения</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="slider-peacture slider-peacture-bracelet">
+                  <h3 class="visually-hidden">Фитнес-браслет</h3>
+                  <img class="slider-image" src="images/slider/slider-bracelet.png" width="560" height="560"
+                    alt="Фитнес-браслет.">
+                  <div class="slider-description">
+                    <span class="slider-number">02</span>
+                    <p class="title-items title-items-slider">Худеем правильно!</p>
+                    <p class="title-paragraph title-paragraph-slider">Мотивирующие фитнес-браслеты помогут найти в себе силы
+                      не пропускать занятия
+                      и соблюдать диету.</p>
+                    <a class="help-link help-link-slider" href="#">Подробнее</a>
+                    <div class="slider-advantages">
+                      <p class="title-paragraph title-advantages"><b>48 часов</b>Без подзарядки</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="slider-peacture slider-peacture-selfie">
+                  <h3 class="visually-hidden">Селфи палка</h3>
+                  <img class="slider-image" src="images/slider/slider-selfie.png" width="560" height="560"
+                    alt="Палка для селфи.">
+                  <div class="slider-description">
+                    <span class="slider-number">03</span>
+                    <p class="title-items title-items-slider ">Делай селфи,
+                      как Бен Стиллер!</p>
+                    <p class="title-paragraph title-paragraph-slider">Самая длинная палка для селфи доступна в нашем
+                      магазине. Восемь (Восемь,
+                      Карл!) метров длиной и весом всего 5 кг.</p>
+                    <a class="help-link help-link-slider" href="#">Подробнее</a>
+                    <div class="slider-advantages">
+                      <p class="title-paragraph title-advantages"><b>8,5 м</b>Длина палки</p>
+                      <p class="title-paragraph title-advantages"><b>5 кг</b>Вес палки</p>
+                      <p class="title-paragraph title-advantages"><b>Карбон</b>Материал</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="slider-controls">
+                <button class="slider-button slider-prev" type="button">
+                  <span class="visually-hidden">Предыдущее фото</span>
+                </button>
+                <button class="slider-button slider-next" type="button">
+                  <span class="visually-hidden">Следующее фото</span>
+                </button>
+              </div>
+              <ul class="slider-pagination">
+                <li class="slider-pagination-item">
+                  <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                    <span class="visually-hidden">1 слайд</span>
+                  </button>
+                </li>
+                <li class="slider-pagination-item">
+                  <button class="slider-pagination-button" type="button">
+                    <span class="visually-hidden">2 слайд</span>
+                  </button>
+                </li>
+                <li class="slider-pagination-item">
+                  <button class="slider-pagination-button" type="button">
+                    <span class="visually-hidden">3 слайд</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
           </section>
-        </section>
+        <!-- Список категорий каталога -->
         <section class="catalog">
-          <h2 class="visually-hidden">Список категорий каталог</h2>
+          <h2 class="visually-hidden">Список категорий каталога</h2>
           <ul class="catalog-item">
             <li class="catalog-list">
               <a class="catalog-link" href="#">
