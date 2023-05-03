@@ -618,7 +618,7 @@ outline: none;
   padding-top: 33px;
   padding-bottom: 40px;
   padding-right: 60px;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
@@ -701,7 +701,7 @@ outline: none;
 
 
 .advantages-title {
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 30px;
