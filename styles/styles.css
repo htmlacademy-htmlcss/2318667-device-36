@@ -118,7 +118,7 @@ body {
 }
 
 .input-search {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -167,7 +167,7 @@ body {
 
 .button-search {
   min-width: 160px;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -232,7 +232,7 @@ outline: none;
 }
 
 .navigation-link-add {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -274,7 +274,7 @@ outline: none;
   z-index: 2;
   box-sizing: border-box;
   width: 320px;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -298,7 +298,7 @@ outline: none;
 }
 
 .popover-link-add {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -368,7 +368,7 @@ outline: none;
 
 .popover-open-button {
   padding: 15px 20px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
@@ -445,7 +445,7 @@ outline: none;
 
 .navigation-link-button {
   position: relative;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
@@ -514,7 +514,7 @@ outline: none;
 }
 
 .navigation-service-item {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
@@ -524,7 +524,7 @@ outline: none;
 }
 
 .service-link {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
@@ -638,7 +638,7 @@ outline: none;
 }
 
 .popover-link {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
@@ -667,7 +667,7 @@ outline: none;
 
 .title-items {
   position: relative;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   font-weight: 800;
   line-height: 50px;
@@ -679,7 +679,7 @@ outline: none;
 }
 
 .title-paragraph {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -716,7 +716,7 @@ outline: none;
 }
 
 .feature h3 {
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -760,7 +760,7 @@ outline: none;
 }
 
 .help-link {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
@@ -945,7 +945,7 @@ outline: none;
   display: block;
   width: 160px;
   position: relative;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 24px;
@@ -1136,7 +1136,7 @@ outline: none;
 }
 
 .delivery-button {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 23px;
@@ -1230,7 +1230,7 @@ outline: none;
 
 
 .contacts-phone {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -1252,7 +1252,7 @@ outline: none;
 }
 
 .company-list span {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -1261,7 +1261,7 @@ outline: none;
 
 .help-link {
   position: relative;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
@@ -1328,7 +1328,7 @@ outline: none;
 }
 
 .contact-title {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
@@ -1353,7 +1353,7 @@ outline: none;
 
   .subscription h2 {
     width: 348px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
@@ -1412,7 +1412,7 @@ outline: none;
 
   .subscription-button {
     width: 253px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -1536,7 +1536,7 @@ outline: none;
 }
 
 .footer-paragraph {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -1544,7 +1544,7 @@ outline: none;
 }
 
 .help-link-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -1653,10 +1653,6 @@ outline: none;
   outline: 2px solid rgba(175, 79, 255, 1);
 }
 
-address {
-  font-style: normal;
-}
-
 /* Модальное окно */
 .modal-container {
   position: fixed;
@@ -1705,7 +1701,7 @@ address {
 }
 
 .modal-title {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   font-weight: 800;
   line-height: 50px;
@@ -1716,7 +1712,7 @@ address {
 }
 
 .form-label {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -1724,7 +1720,7 @@ address {
 }
 
 .control-label {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -1788,7 +1784,7 @@ address {
 
 
 .field-modal {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -1861,7 +1857,7 @@ address {
   width: 60px;
   padding: 20px 20px;
   text-align: center;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
